@@ -72,9 +72,6 @@ img {
 
 /* -----------LOGO------------- */
 .logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -82,6 +79,8 @@ img {
 }
 
 .logo.black {
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
 
   color: var(--primary-text-color);
