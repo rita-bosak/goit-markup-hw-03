@@ -10,7 +10,6 @@
 }
 
 body {
-  max-width: 1600px;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
@@ -65,6 +64,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .header > .container {
@@ -196,6 +196,14 @@ img {
 }
 
 /* --------------FEATURES----------- */
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
 .features {
   padding-top: 94px;
