@@ -381,6 +381,8 @@ img {
   padding-bottom: 94px;
 }
 
+/* -----------FILTER-BTN------------------- */
+
 .filter-btn-list {
   display: flex;
   justify-content: center;
@@ -412,6 +414,8 @@ img {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+
+/* ----------CARD-SET-------------------- */
 
 .examples-list {
   display: flex;
