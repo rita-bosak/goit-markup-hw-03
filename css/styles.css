@@ -62,8 +62,6 @@ img {
 /* ------------HEADER-------------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
@@ -74,6 +72,9 @@ img {
 
 /* -----------LOGO------------- */
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -102,6 +103,9 @@ img {
 }
 
 .nav-list-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.066;
@@ -128,6 +132,9 @@ img {
 }
 
 .header-contact-list-item > .link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--secondary-text-color);
 }
 
