@@ -95,6 +95,11 @@ img {
 
 /* -------NAV-LIST--------- */
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -161,17 +166,14 @@ img {
   padding-bottom: 200px;
 }
 
-.hero > .container {
-  padding-left: 284px;
-  padding-right: 284px;
-}
-
 .hero-title-container {
   display: flex;
   justify-content: center;
   max-width: 696px;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -187,7 +189,6 @@ img {
 }
 
 .hero-modal-btn {
-  min-width: 200px;
   display: flex;
   align-items: center;
   text-align: center;
