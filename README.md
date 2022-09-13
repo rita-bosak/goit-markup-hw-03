@@ -1,1 +1,1 @@
-# goit-markup-hw-03
+add styles for geometric (marging, paddings, flexbox)
